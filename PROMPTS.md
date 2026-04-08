@@ -86,3 +86,16 @@ El asistente me enseñó que en Python las funciones son objetos. Me explicó c�
 
 **¿Lo usaste tal cual o lo modificaste?**
 Lo usé tal cual. Fue muy útil entender el concepto de `*args` en la memoización para que la función acepte cualquier cantidad de parámetros, y la lógica de acumulación manual para la función `reducir`, lo que me ayudó a entender qué hace por detrás `functools.reduce`.
+
+### 7 - operaciones.py
+
+**Herramienta**: Gemini (Asistente de Programación)
+
+**Prompt usado**:
+> Explicame cómo manipular strings en Python para detectar palíndromos y contar vocales. Además, necesito implementar un Cifrado César. ¿Cómo puedo usar las funciones ord() y chr() para rotar letras sin romper caracteres especiales?
+
+**Resultado obtenido**:
+La IA me explicó el uso de `title()` para capitalizar y cómo limpiar strings con `split()`. Para el Cifrado César, me enseñó a usar aritmética modular (`% 26`) junto con los valores ASCII de las letras para que el desplazamiento sea circular.
+
+**¿Lo usaste tal cual o lo modificaste?**
+Seguí la lógica explicada. Para el palíndromo, usé la técnica de slicing `[::-1]` que aprendimos en el módulo de listas. En el Cifrado César, agregué una validación con `isalpha()` para asegurarme de que los espacios y puntos no se cifren.
