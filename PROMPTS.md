@@ -60,3 +60,16 @@ La IA me explicó la analogía de los casilleros (clave/valor). Me enseñó el m
 
 **¿Lo usaste tal cual o lo modificaste?**
 Seguí la estructura recomendada. Me pareció muy útil la explicación de "Dictionary Comprehensions", ya que me permitió resolver la inversión de claves y valores en una sola línea de código, haciendo que el archivo sea mucho más fácil de leer.
+
+### 5 - loops.py
+
+**Herramienta**: Gemini (Asistente de Programación)
+
+**Prompt usado**:
+> Actuá como un mentor de algoritmos. Explicame cómo usar bucles for y while para resolver problemas clásicos como la serie de Fibonacci y la verificación de números primos. ¿Cómo puedo optimizar el cálculo de números primos en Python?
+
+**Resultado obtenido**:
+El mentor me explicó el uso de `range()` y cómo iterar sobre secuencias. Me enseñó un truco para sumar dígitos convirtiendo el número a string y me explicó por qué en el algoritmo de números primos solo es necesario iterar hasta la raíz cuadrada del número para ganar eficiencia.
+
+**¿Lo usaste tal cual o lo modificaste?**
+Seguí las recomendaciones lógicas. Para Fibonacci, opté por la solución con un bucle `while` que me resultó más intuitiva para controlar el tamaño exacto de la lista resultante, y apliqué la optimización de la raíz cuadrada en la función de números primos.
