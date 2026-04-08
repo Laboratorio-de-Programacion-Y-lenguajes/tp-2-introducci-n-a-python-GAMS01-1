@@ -34,3 +34,16 @@ A través del patrón de interacción invertida, la IA me pidió analizar primer
 
 **¿Lo usaste tal cual o lo modificaste?**
 Fui construyendo la solución basándome en las explicaciones del tutor. Usé la estructura lógica que armamos en conjunto, asegurándome de entender el "por qué" detrás de cada bloque lógico, lo que me permitió pasar las pruebas.
+
+### 3 - listas.py
+
+**Herramienta**: Gemini (Asistente de Programación)
+
+**Prompt usado**:
+> Actuá como un Senior Developer de Python. Explicame cómo resolver operaciones de listas (suma, filtrado, inversión y aplanamiento) usando las funciones nativas más eficientes de Python 3.13, priorizando el uso de List Comprehensions y evitando bucles 'for' tradicionales si es posible.
+
+**Resultado obtenido**:
+La IA me mostró cómo usar `sum()` para cálculos rápidos y cómo el "slicing" `[::-1]` permite invertir listas de forma elegante. También me explicó el concepto de List Comprehensions para filtrar pares y aplanar sublistas.
+
+**¿Lo usaste tal cual o lo modificaste?**
+Lo usé siguiendo las explicaciones. Me llamó la atención el truco de `dict.fromkeys()` para eliminar duplicados manteniendo el orden, algo que me pareció más limpio que crear una lista vacía y preguntar con un `if item not in...`.
