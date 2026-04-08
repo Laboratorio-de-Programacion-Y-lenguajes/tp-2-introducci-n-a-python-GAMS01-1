@@ -47,3 +47,16 @@ La IA me mostró cómo usar `sum()` para cálculos rápidos y cómo el "slicing"
 
 **¿Lo usaste tal cual o lo modificaste?**
 Lo usé siguiendo las explicaciones. Me llamó la atención el truco de `dict.fromkeys()` para eliminar duplicados manteniendo el orden, algo que me pareció más limpio que crear una lista vacía y preguntar con un `if item not in...`.
+
+### 4 - diccionarios.py
+
+**Herramienta**: Gemini (Asistente de Programación)
+
+**Prompt usado**:
+> Explicame cómo funcionan los diccionarios en Python como si fuera un principiante. Necesito resolver funciones para contar palabras, invertir claves por valores y unir diccionarios. ¿Cuál es la forma más moderna de hacerlo en Python 3.13?
+
+**Resultado obtenido**:
+La IA me explicó la analogía de los casilleros (clave/valor). Me enseñó el método `.get()` para evitar errores al contar elementos y el operador `|` para combinar diccionarios de forma sencilla.
+
+**¿Lo usaste tal cual o lo modificaste?**
+Seguí la estructura recomendada. Me pareció muy útil la explicación de "Dictionary Comprehensions", ya que me permitió resolver la inversión de claves y valores en una sola línea de código, haciendo que el archivo sea mucho más fácil de leer.
