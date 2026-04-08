@@ -73,3 +73,16 @@ El mentor me explicó el uso de `range()` y cómo iterar sobre secuencias. Me en
 
 **¿Lo usaste tal cual o lo modificaste?**
 Seguí las recomendaciones lógicas. Para Fibonacci, opté por la solución con un bucle `while` que me resultó más intuitiva para controlar el tamaño exacto de la lista resultante, y apliqué la optimización de la raíz cuadrada en la función de números primos.
+
+### 6 - funciones.py
+
+**Herramienta**: Gemini (Asistente de Programación)
+
+**Prompt usado**:
+> Explicame el concepto de "Funciones de Orden Superior" en Python. Necesito implementar una composición de funciones, un decorador de memoización manual y una función de reducción sin usar librerías. ¿Cómo se usan las funciones como argumentos?
+
+**Resultado obtenido**:
+El asistente me enseñó que en Python las funciones son objetos. Me explicó cómo definir funciones dentro de otras funciones para lograr la composición y cómo usar diccionarios como "cache" para la memoización, evitando cálculos repetitivos.
+
+**¿Lo usaste tal cual o lo modificaste?**
+Lo usé tal cual. Fue muy útil entender el concepto de `*args` en la memoización para que la función acepte cualquier cantidad de parámetros, y la lógica de acumulación manual para la función `reducir`, lo que me ayudó a entender qué hace por detrás `functools.reduce`.
